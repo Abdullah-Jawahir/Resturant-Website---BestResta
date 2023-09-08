@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BestResta. | The Best Restaurant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./Css/reset.css">
+    <link rel="stylesheet" href="./Css/header.css">
+    <link rel="stylesheet" href="./Css/footer.css">
+    <link rel="stylesheet" href="./Css/contact.css">
+</head>
+
+<body>
+    <!-- The Header Section starts -->
+    <header>
+        <a href="#home" class="logo">BestResta.</a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- The Header section ends -->
+
+    <!-- The content section starts -->
+    <section id="contact" class="contact-section">
+
+        <div class="google-map">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.41806364967!2d80.5845814084912!3d7.29462857312179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1694184176463!5m2!1sen!2slk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <form id="contact-form">
+            <h5>send us a message</h5>
+            <div class="form-control">
+                <input type="text" name="name" id="name" placeholder="your name" autocomplete="off" />
+            </div>
+            <div class="form-control">
+                <input type="email" name="email" id="email" placeholder="your email" autocomplete="off" />
+            </div>
+            <div class="form-control">
+                <input type="text" name="subject" id="subject" placeholder="subject" autocomplete="off" />
+            </div>
+            <div class="form-control text-area">
+                <textarea name="message" id="message" placeholder="your message"></textarea>
+            </div>
+            <div class="form-control">
+                <input type="submit" id="submit" />
+            </div>
+        </form>
+
+    </section>
+    <!-- The content section ends -->
+
+
+    <!-- The footer section starts -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#home">BestResta.</a>
+            </div>
+            <div class="footer-contact">
+                <p>123 Main Street, City, State</p>
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@bestresta.com</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 BestResta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- The footer section ends -->
+</body>
+
+</html>

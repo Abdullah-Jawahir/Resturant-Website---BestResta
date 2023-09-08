@@ -1,0 +1,60 @@
+header {
+
+    height: 5em;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 0 60px 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+header .logo {
+
+    font-size: 2rem;
+    font-weight: bolder;
+    transition: .25s;
+
+}
+
+header .logo:hover {
+
+    color: rgb(187, 120, 57);
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 25px;
+    transition: .25s;
+    font-weight: 500;
+    text-wrap: nowrap;
+}
+
+nav a:hover {
+
+    color: rgb(187, 120, 57);
+}
+
+nav .active {
+
+    color: rgb(187, 120, 57);
+}

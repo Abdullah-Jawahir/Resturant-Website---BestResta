@@ -1,0 +1,110 @@
+#video-carousel {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#video-carousel .navigation {
+
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.navigation li {
+
+    width: 200px;
+    height: 120px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 10px;
+    cursor: pointer;
+    list-style: none;
+    opacity: 0.7;
+    transform: scale(1);
+    transition: .3s;
+    border: 3px solid rgba(0, 0, 0, 0.7);
+
+}
+
+.navigation li img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navigation li:hover {
+
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+#featured-foods {
+    padding: 60px 10px 40px 10px;
+}
+
+#featured-foods h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#featured-foods .cards {
+
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding: 20px 0;
+}
+
+.cards .card {
+
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 10px 20px 10px;
+    transition: .28s;
+    background-color: #fff;
+}
+
+.cards .card:hover {
+
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.card img {
+    max-width: auto;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    color: #666;
+}
