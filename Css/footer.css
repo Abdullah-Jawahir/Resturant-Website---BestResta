@@ -1,68 +1,123 @@
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+#footer {
+  width: 100%;
+  padding: 3.5rem 8rem 3.5rem 10rem;
+  background-color: #111111;
 }
-
-.footer-content {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
+#footer p {
+  color: gray;
+  line-height: 1.7rem;
+  font-size: 1.1rem;
 }
-
-.footer-logo {
-
-    position: absolute;
-    left: 40px;
+#footer .footer-body {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3.5rem;
 }
-
-.footer-logo a {
-    font-size: 2.5rem;
-    font-weight: bolder;
-    transition: .25s;
+#footer .footer-body .mini-about {
+  width: 28em;
+  height: auto;
 }
-
-.footer-logo a:hover {
-
-    color: rgb(187, 120, 57);
+#footer .footer-body .mini-about .mini-logo {
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 2rem;
 }
-
-.footer-contact {
-
-    margin-left: auto;
-    margin-right: auto;
+#footer .footer-body .notify-area {
+  width: 28em;
+  display: flex;
+  flex-direction: column;
 }
-
-.footer-contact p {
-    margin: 5px 0;
-    font-size: 1.2rem;
+#footer .footer-body .notify-area h5 {
+  color: aliceblue;
+  text-transform: capitalize;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.7rem;
+  margin-bottom: 2.2rem;
 }
-
-.footer-social {
-
-    position: absolute;
-    right: 30px;
+#footer .footer-body .notify-area p {
+  margin-bottom: 2.1rem;
+  width: 100%;
 }
-
-.footer-social a {
-
-    margin-right: 10px;
-    font-size: 25px;
-    transition: .25s;
+#footer .footer-body .notify-area #subscribtion-form {
+  height: 2.8em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-
-.footer-social a:hover {
-
-    color: rgb(187, 120, 57);
+#footer .footer-body .notify-area #subscribtion-form .hidden {
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 1.2rem;
+#footer .footer-body .notify-area #subscribtion-form i {
+  color: #a85c3d;
+  background-color: #333;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+}
+#footer .footer-body .notify-area #subscribtion-form input, #footer .footer-body .notify-area #subscribtion-form button {
+  padding: 5px;
+  height: 100%;
+  font-size: 0.9rem;
+  border: 0;
+  outline: none;
+}
+#footer .footer-body .notify-area #subscribtion-form input {
+  width: 18em;
+  background-color: #333;
+  padding-left: 5px;
+  color: aliceblue;
+}
+#footer .footer-body .notify-area #subscribtion-form button {
+  width: 10.6em;
+  cursor: pointer;
+  background-color: #a85c3d;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
+#footer .foot-note {
+  text-align: center;
+}
+#footer .foot-note p .heart {
+  position: relative;
+  background-color: rgb(204, 8, 67);
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  margin: 0 12px;
+  margin-left: 7px;
+  transform: rotate(-45deg);
+}
+#footer .foot-note p .heart::before {
+  position: absolute;
+  content: "";
+  bottom: 60%;
+  left: 0;
+  background-color: rgb(204, 8, 67);
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+#footer .foot-note p .heart::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 60%;
+  background-color: rgb(204, 8, 67);
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+#footer .foot-note p .my-name {
+  color: aliceblue;
 }

@@ -14,10 +14,10 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./Css/reset.css">
-    <link rel="stylesheet" href="./Css/header.css">
-    <link rel="stylesheet" href="./Css/footer.css">
-    <link rel="stylesheet" href="./Css/contact.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
 </head>
 
 <body>
@@ -66,24 +66,41 @@
 
 
     <!-- The footer section starts -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <a href="#home">BestResta.</a>
+    <footer id="footer">
+        <div class="footer-body">
+            <div class="mini-about">
+                <a href="./index.html" class="mini-logo logo">BestResta.</a>
+                <p>
+                    Proin eget tortor risus. Mauris blandit aliquet elit, eget
+                    tincidunt nibh pulvinar a. Praesent sapien massa, convallis a
+                    pellentesque nec, egestas non nisi. Mauris blandit aliquet elit,
+                    eget tincidunt nibh pulvinar a. Nulla porttitor accumsan
+                    tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas
+                    autem necessitatibus vitae aut.
+                </p>
             </div>
-            <div class="footer-contact">
-                <p>123 Main Street, City, State</p>
-                <p>Phone: (123) 456-7890</p>
-                <p>Email: info@bestresta.com</p>
-            </div>
-            <div class="footer-social">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+            <div class="notify-area">
+                <h5>get notified</h5>
+                <p>
+                    Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae
+                    aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt
+                    iusto porro.
+                </p>
+                <form id="subscribtion-form" name="subscribe-form">
+                    <input type="hidden" name="form-name" value="subscribe-form" />
+                    <i class="fa fal fa-envelope"></i>
+                    <input type="email" name="notify-email" id="notify-email" placeholder="Email Address" />
+                    <button type="submit">subscribe</button>
+                </form>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 BestResta. All rights reserved.</p>
+
+        <div class="foot-note">
+            <p>
+                &copy; 2023 BestResta. Made with <span class="heart"></span>by
+                <span class="my-name">Aslam Azwer</span>
+            </p>
         </div>
     </footer>
 
